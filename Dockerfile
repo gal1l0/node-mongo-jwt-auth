@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lts/ubuntu:20.04_stable
+FROM registry.digitalocean.com/bnkle/ubuntu:20.04_stable
 LABEL Author="Alain Christian(gal1l0)"
 
 RUN apt update && apt install -y curl
